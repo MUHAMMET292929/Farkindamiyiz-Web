@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.contanier{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(hasta.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg red yellow);
+    background-attachment: fixed;
+
+}
+
+.contanier{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     font-family: "poppins" , sans-serif;
+     text-align: center;
+
+}
+.contanier:hover .card{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 520px;
+    margin: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+     
+} 
+.contanier .card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+.card-circle{
+    width: 100%;
+    height: 20vh;
+    clip-path: circle(180px at center 0);
+}
+
+.card-title{
+    color: #fff;
+    font-size: 45px;
+    padding-top: 40px;
+    line-height: 40px;
+    width: 100%;
+    height: 23vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-content{
+    padding: 30px;
+    margin-top: 10%;
+}
+.card-text{
+    color: #666;
+    height: 22vh;
+}
+.card-link{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.card:nth-child(1) .card-link{
+    background-color: purple;
+}
+.card:nth-child(2) .card-link{
+    background-color: pink;
+}
+.card:nth-child(3) .card-link{
+    background-color: yellow;
+    
+}
+.card:nth-child(4) .card-link{
+    background-color: aqua;
+}
+.card:nth-child(5) .card-link{
+    background-color: blue;
+}
+.card:nth-child(6) .card-link{
+    background-color: chartreuse;
+}
+.card:nth-child(7) .card-link{
+    background-color: gold;
+}
+.card:nth-child(8) .card-link{
+    background-color: magenta;
+}
+.card:nth-child(9) .card-link{
+    background-color: tomato;
+}
+.card:nth-child(10) .card-link{
+    background-color: orangered;
+}
+.card:nth-child(1) .card-title{
+    background-image: url(resımler/memekanser.jpg);
+}
+.card:nth-child(2) .card-title{
+    background-image: url(resımler/sma.jpg);
+}
+.card:nth-child(3) .card-title{
+    background-image: url();
+}
+.card:nth-child(4) .card-title{
+    background-image: url();  
+}
+.card:nth-child(5) .card-title{
+    background-image: url();
+}
+.card:nth-child(6) .card-title{
+    background-image: url();
+}
+.card:nth-child(7) .card-title{
+    background-image: url();
+}
+.card:nth-child(8) .card-title{
+    background-image: url();
+}
+.card:nth-child(9) .card-title{
+    background-image: url();
+}
+.card:nth-child(10) .card-title{
+    background-image: url();
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    background-color: aquamarine;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+   
+}
+
+.navbar  li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    padding: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    
+    
+.navbar li:hover {
+background-color: #009688;
+border-radius: 20px;
+border: 2px solid #009688;
+transition: 0.5s;
+
+
+}
+
+/* SLİDER KISMI */
+
+.cerceve{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.galeri{
+    position: relative;
+    width: 400%;
+    left: 0%;
+    animation: 16s slayt  infinite;
+
+}
+
+@keyframes slayt{
+    0%{left: 0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    90%{left: -300%;}
+}
+.galeri img{
+    width: 25%;
+    float: left;
+}
